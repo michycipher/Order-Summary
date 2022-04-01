@@ -11,7 +11,7 @@ img {
 }
 
 main {
-  background-image: url("../images/pattern-background-desktop.svg");
+  background-image: url('./images/pattern-background-desktop.svg');
   background-color: #dfe8ff;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -163,7 +163,7 @@ a:hover {
 
 @media screen and (max-width: 1200px) {
   main {
-    background: url('../images/pattern-background-mobile.svg');
+    background: url('./images/pattern-background-mobile.svg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #dfe8ff;
